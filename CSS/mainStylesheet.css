@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainContainer{
+    width: 100%;
+}
+#mainPurpleFraim{
+    display: inline-block;
+    width: 100%;
+    max-width: 1300px;
+    background-color: #F1E8FF;
+    margin-top: 90px;
+    padding: 80px;
+}
+#pricingPlan{
+    text-align: center;
+    margin-bottom: 32px;
+}
+#planParag{
+    color: #535862;
+    font-size: 24px;
+    text-align: center;
+}
+#pricingHeader{ 
+    font-weight: bold;
+    font-size: 40px;
+    color: #181D27;
+    padding-bottom: 20px;
+}
+#pricingPlanMainFrame{
+    text-align: center;
+}
+#firstPlanFrame, #secondPlanFrame, #thirdPlanFrame{
+    vertical-align: top;
+    text-align: center;
+    padding: 30px 25px;
+    border-radius: var(--radius-2xl, 16px);
+    border: 1px solid #E9EAEB;
+    background-color: #FFF;
+    text-align: center;
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+}
+#basicPlanFrame, #businessPlanFrame
+{
+    text-align: center;
+    display: inline-block;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    width: 100px;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+}
+#enterprisePlanFrame{
+    text-align: center;
+    display: inline-block;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    width: 120px;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+}
+#basicPlanText, #businessPlanText,
+#enterprisePlanText{
+    color: #6941C6;
+    font-size: 14px;
+    display: inline-block;
+}
+#planDescriptionMainFrame{
+    text-align: center;
+}
+#priceText, #planPrice, #planPriceText{
+    font-size: 48px;
+    color: #181D27;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+#simpleTeext, #planPriceParag, 
+#planPriceSubText{
+    font-size: 16px;
+    color: #535862;
+    padding-bottom: 16px;
+}
+#getStartedFrame, #getStartedSecondFrame,
+#getStartedThirdFrame{
+    border-radius: var(--radius-md, 8px);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+}
+#getStratedText, #getStartedParag,
+#getStartedTextt{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+#chatToSalesFrame, #chatToSalesSecondFrame,
+#chatToSalesThirdsFrame{
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    margin-bottom: 32px;
+    padding: 12px 18px;
+}
+#chatToSalesText, #chatToSalesParag,
+#chatToSalesTextt{
+    font-size: 16px;
+    color: #414651;
+    font-weight: 600;
+}
+#firstDetailedPlanDescrptionFrame,
+#secondDetailedPlanDescrptionFrame,
+#thirdDetailedPlanDescrptionFrame{
+    width: 250px;
+    border-top: 1px solid #E9EAEB;
+    text-align: left;
+    padding-top: 16px;
+}
+#firstAdvantage, #secondAdvantage, #thirdAdvantage,
+#fourthAdvantage, #fifthAdvantage, #fifthCheck,
+#fourthCheck, #thirdCheck, #secondCheck,
+#firstCheck, #firstCheckpoint, #secondCheckpoint,
+#thirdCheckpoint, #fourthCheckpoint, #fifthCheckpoint{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 12px;
+}
+#firstOne, #secondOne, #thirdOne, #fourthOne,
+#fifthOne, #first, #second, #third,
+#fourth, #fifth, #one, #two, #three,
+#four, #five{
+    vertical-align: top;
+    color: #535862;
+    font-size: 15px;
+    display: inline-block;
+}
+#secondPlanFrame{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+#frequentlyAskedMainFraim{
+    width: 100%;
+    max-width: 1400px;
+    background-color: #FFF;
+    margin-top: 60px;
+    border-radius: 24px;
+    background: #FFF;
+    padding: 28px 0px;
+}
+#innerFrame{
+    text-align: center;/*aq  rom vwer teqstic mecentreba*/
+    display: inline-block;
+    width: 100%;
+    max-width: 1100px;
+}
+#mainHeader{
+    font-weight: 800;
+    font-size: 40px;
+    color: #181D27;
+    padding-bottom: 28px;
+}
+#frequentlyParag{
+    column-rule: #535862;
+    font-size: 24px;
+    padding-bottom: 28px;
+}
+
+#firstGreenContainer{
+    vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    border-radius: var(--spacing-xl, 16px);
+    background: #E4E4E4;
+    padding: 28px;
+    margin-bottom: 25px;
+}
+#arrow{
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+#freeTrial{
+    display: inline-block;
+    color: #181D27;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+#freeTrialParag{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 16px;
+    color: #535862;
+}
+#greenContainerContentFrame{
+    text-align: left;
+    vertical-align: middle;
+    width: 500px;
+}
+#frequentlyHeaderFrame{
+   text-align: center;
+}
+#containersMainFrame{
+    width: 1000px;/*rato ar icentreba div?*/
+    margin: 0 auto;
+}
+#ourReviewsMainFrame{
+    margin-top: 65px;
+    padding: 32px;
+    border-radius: 24px;
+    width: 100%;
+    background-color: #FFF;
+    max-width: 1400px;
+}
+#reviews{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    color: #181D27;
+    padding-bottom: 20px;
+}
+#reviewParag{
+    text-align: center;
+    color: #535862;
+    font-size: 24px;
+    padding-bottom: 64px;
+}
+#clientReviewsMainFrame{
+
+}
+#firstClientFrame, #secondClientFrame, 
+#thirdClienFrame, #fourthClientsFrame{
+    padding: 30px;
+    display: inline-block;
+    border-radius: var(--radius-xl, 12px);
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    width: 550px;
+    margin-bottom: 25px;
+    vertical-align: top;
+}
+#siennarReviewFrame, #caitliynReviews,
+#ollyReviews, #rileyReview{
+    text-align: left;
+    margin-bottom: 60px;
+}
+#siennasText, #caitlinReview.
+#olllyReview, #rileyReviewss{
+    color: #181D27;
+    font-weight: 700;
+    font-size: 20px;
+}
+#siennaAvatarFrame, #cailynSocialFrame,
+#ollySocials, #rileySocials{
+    margin-right: 60px;
+    width: fit-content;
+    margin-left: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+#name, #caitlyn, #olyNames, #rileyNameee{
+    vertical-align: top;
+    display: inline-block;
+    color: #181D27;
+    font-size: 18px;
+    font-weight: 600;
+}
+#blue, #tickk, #ticck, #tickIcon{
+    vertical-align: top;
+    display: inline-block;
+}
+#manager, #COO, #Designer, #Engineer{
+    font-size: 16px;
+    color: #535862;
+}
+#warpspeedLogo{
+    vertical-align: top;
+}
+#caitliynReviews{
+    text-align: left;
+}
+#odeoLogo, #nietyscheLogo, #quartzLogo{
+    vertical-align: top;
+    margin-left: 60px;
+}
