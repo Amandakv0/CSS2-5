@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 #mainContainer{
+    text-align: center;/*ese ro gavcentre sheidzleba tu div unda gavcentro calke?*/
     width: 100%;
 }
 #mainPurpleFraim{
@@ -236,6 +237,11 @@
 #clientReviewsMainFrame{
 
 }
+#firstRowFrame{
+    width: 100%;
+    max-width: 1500px;
+    vertical-align: top;
+}
 #firstClientFrame, #secondClientFrame, 
 #thirdClienFrame, #fourthClientsFrame{
     padding: 30px;
@@ -243,24 +249,35 @@
     border-radius: var(--radius-xl, 12px);
     border: 1px solid #E9EAEB;
     background: #FFF;
-    width: 550px;
+    width: 500px;
     margin-bottom: 25px;
     vertical-align: top;
 }
-#siennarReviewFrame, #caitliynReviews,
-#ollyReviews, #rileyReview{
+#siennarReviewFrame,
+#rileyReview{
     text-align: left;
     margin-bottom: 60px;
 }
-#siennasText, #caitlinReview.
+#caitliynReviews, #ollyReviews{
+    text-align: left;
+    margin-bottom: 40px;
+}
+#siennasText, #caitlinReview,
 #olllyReview, #rileyReviewss{
     color: #181D27;
     font-weight: 700;
     font-size: 20px;
 }
 #siennaAvatarFrame, #cailynSocialFrame,
-#ollySocials, #rileySocials{
-    margin-right: 60px;
+#ollySocials{
+    margin-right: 40px;
+    width: fit-content;
+    margin-left: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+#rileySocials{
+    margin-right: 15px;
     width: fit-content;
     margin-left: 12px;
     display: inline-block;
